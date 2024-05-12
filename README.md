@@ -17,5 +17,5 @@ Then you need to remove the 2 resistors R155A and R155B and solder a PLCC-20 soc
 
 To create 1MB Kickstart ROMs for the latest Kickstart version I use capitoline. The steps to create a 1MB ROM are described here http://capitoline.twocatsblack.com/index.php/1mb-hyperion-rom.
 
-The 1MB Kickstart will be 2 parts, 512k at $00F8.0000 and the extion at $00E0.0000.
+The 1MB Kickstart will be 2 parts, 512k at $00F8.0000 and the extension at $00E0.0000.
 If there is no specific profile for the A4000(T) BIGROM available, you can use the generic version and place the normal $F8 and the extension $E0 and create this combinded Kickstart for at least 2x 512K EEPROMS/Flash.
